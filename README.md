@@ -22,7 +22,7 @@ The API is programmatic: inject `RateLimiter`, build a `Bucket`, and call consum
 ## Requirements
 
 - Java 17+
-- Spring Boot 4.0.x
+- Spring Boot 4.1.x
 - Spring Data Redis on the application classpath
 - Redis
 
@@ -36,6 +36,7 @@ This project aligns its version numbers with the supported Spring Boot release l
 | Library Version | Compatible Spring Boot |
 | :--- | :--- |
 | `4.0.x` | `4.0.x` |
+| `4.1.x` | `4.1.x` |
 
 ## Installation
 
@@ -45,7 +46,7 @@ Add the Redis starter to your Maven project:
 <dependency>
     <groupId>dev.ercan</groupId>
     <artifactId>spring-rate-limiter-redis-starter</artifactId>
-    <version>4.0.0</version>
+    <version>4.1.0</version>
 </dependency>
 ```
 

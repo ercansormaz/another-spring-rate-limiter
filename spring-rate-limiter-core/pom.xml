@@ -7,7 +7,7 @@
   <parent>
     <groupId>dev.ercan</groupId>
     <artifactId>spring-rate-limiter</artifactId>
-    <version>4.0.0</version>
+    <version>4.1.0</version>
   </parent>
 
   <artifactId>spring-rate-limiter-core</artifactId>
