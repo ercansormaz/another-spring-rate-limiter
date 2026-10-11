@@ -1,0 +1,331 @@
+Single Key - 100 Thread
+Benchmark                                                                               Mode     Cnt      Score    Error  Units
+SingleKeyBenchmark.consumeAndGetMultiBandwidthBucket4J            thrpt            594.966           ops/s
+SingleKeyBenchmark.consumeAndGetMultiBandwidthxxxxx               thrpt          13060.241           ops/s
+SingleKeyBenchmark.consumeAndGetSingleBandwidthBucket4J           thrpt            609.786           ops/s
+SingleKeyBenchmark.consumeAndGetSingleBandwidthxxxxx              thrpt          11369.749           ops/s
+SingleKeyBenchmark.consumeMultiBandwidthBucket4J                  thrpt            567.571           ops/s
+SingleKeyBenchmark.consumeMultiBandwidthxxxxx                     thrpt          12812.627           ops/s
+SingleKeyBenchmark.consumeSingleBandwidthBucket4J                 thrpt            461.393           ops/s
+SingleKeyBenchmark.consumeSingleBandwidthxxxxx                    thrpt          10705.423           ops/s
+SingleKeyBenchmark.consumeAndGetMultiBandwidthBucket4J           sample    5462      0.181 ±  0.008   s/op
+SingleKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.00     sample              0.003            s/op
+SingleKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.50     sample              0.109            s/op
+SingleKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.90     sample              0.404            s/op
+SingleKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.95     sample              0.538            s/op
+SingleKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.99     sample              0.872            s/op
+SingleKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.999    sample              1.462            s/op
+SingleKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.9999   sample              2.147            s/op
+SingleKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p1.00     sample              2.147            s/op
+SingleKeyBenchmark.consumeAndGetMultiBandwidthxxxxx              sample  111105      0.009 ±  0.001   s/op
+SingleKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.00        sample              0.001            s/op
+SingleKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.50        sample              0.009            s/op
+SingleKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.90        sample              0.011            s/op
+SingleKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.95        sample              0.012            s/op
+SingleKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.99        sample              0.016            s/op
+SingleKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.999       sample              0.028            s/op
+SingleKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.9999      sample              0.084            s/op
+SingleKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p1.00        sample              0.089            s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthBucket4J          sample    5836      0.170 ±  0.007   s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.00    sample              0.003            s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.50    sample              0.110            s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.90    sample              0.372            s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.95    sample              0.483            s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.99    sample              0.781            s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.999   sample              1.191            s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.9999  sample              1.327            s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p1.00    sample              1.327            s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthxxxxx             sample  110450      0.009 ±  0.001   s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.00       sample              0.001            s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.50       sample              0.010            s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.90       sample              0.011            s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.95       sample              0.012            s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.99       sample              0.014            s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.999      sample              0.048            s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.9999     sample              0.091            s/op
+SingleKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p1.00       sample              0.091            s/op
+SingleKeyBenchmark.consumeMultiBandwidthBucket4J                 sample    5510      0.179 ±  0.009   s/op
+SingleKeyBenchmark.consumeMultiBandwidthBucket4J:p0.00           sample              0.003            s/op
+SingleKeyBenchmark.consumeMultiBandwidthBucket4J:p0.50           sample              0.098            s/op
+SingleKeyBenchmark.consumeMultiBandwidthBucket4J:p0.90           sample              0.412            s/op
+SingleKeyBenchmark.consumeMultiBandwidthBucket4J:p0.95           sample              0.571            s/op
+SingleKeyBenchmark.consumeMultiBandwidthBucket4J:p0.99           sample              0.999            s/op
+SingleKeyBenchmark.consumeMultiBandwidthBucket4J:p0.999          sample              1.543            s/op
+SingleKeyBenchmark.consumeMultiBandwidthBucket4J:p0.9999         sample              2.043            s/op
+SingleKeyBenchmark.consumeMultiBandwidthBucket4J:p1.00           sample              2.043            s/op
+SingleKeyBenchmark.consumeMultiBandwidthxxxxx                    sample  112521      0.009 ±  0.001   s/op
+SingleKeyBenchmark.consumeMultiBandwidthxxxxx:p0.00              sample              0.001            s/op
+SingleKeyBenchmark.consumeMultiBandwidthxxxxx:p0.50              sample              0.009            s/op
+SingleKeyBenchmark.consumeMultiBandwidthxxxxx:p0.90              sample              0.009            s/op
+SingleKeyBenchmark.consumeMultiBandwidthxxxxx:p0.95              sample              0.010            s/op
+SingleKeyBenchmark.consumeMultiBandwidthxxxxx:p0.99              sample              0.013            s/op
+SingleKeyBenchmark.consumeMultiBandwidthxxxxx:p0.999             sample              0.031            s/op
+SingleKeyBenchmark.consumeMultiBandwidthxxxxx:p0.9999            sample              0.087            s/op
+SingleKeyBenchmark.consumeMultiBandwidthxxxxx:p1.00              sample              0.087            s/op
+SingleKeyBenchmark.consumeSingleBandwidthBucket4J                sample    5765      0.173 ±  0.007   s/op
+SingleKeyBenchmark.consumeSingleBandwidthBucket4J:p0.00          sample              0.003            s/op
+SingleKeyBenchmark.consumeSingleBandwidthBucket4J:p0.50          sample              0.115            s/op
+SingleKeyBenchmark.consumeSingleBandwidthBucket4J:p0.90          sample              0.373            s/op
+SingleKeyBenchmark.consumeSingleBandwidthBucket4J:p0.95          sample              0.477            s/op
+SingleKeyBenchmark.consumeSingleBandwidthBucket4J:p0.99          sample              0.757            s/op
+SingleKeyBenchmark.consumeSingleBandwidthBucket4J:p0.999         sample              1.143            s/op
+SingleKeyBenchmark.consumeSingleBandwidthBucket4J:p0.9999        sample              1.560            s/op
+SingleKeyBenchmark.consumeSingleBandwidthBucket4J:p1.00          sample              1.560            s/op
+SingleKeyBenchmark.consumeSingleBandwidthxxxxx                   sample  102341      0.010 ±  0.001   s/op
+SingleKeyBenchmark.consumeSingleBandwidthxxxxx:p0.00             sample              0.001            s/op
+SingleKeyBenchmark.consumeSingleBandwidthxxxxx:p0.50             sample              0.010            s/op
+SingleKeyBenchmark.consumeSingleBandwidthxxxxx:p0.90             sample              0.012            s/op
+SingleKeyBenchmark.consumeSingleBandwidthxxxxx:p0.95             sample              0.012            s/op
+SingleKeyBenchmark.consumeSingleBandwidthxxxxx:p0.99             sample              0.015            s/op
+SingleKeyBenchmark.consumeSingleBandwidthxxxxx:p0.999            sample              0.040            s/op
+SingleKeyBenchmark.consumeSingleBandwidthxxxxx:p0.9999           sample              0.096            s/op
+SingleKeyBenchmark.consumeSingleBandwidthxxxxx:p1.00             sample              0.096            s/op
+
+10 Distinct Key - 100 Thread
+Benchmark                                                         Mode    Cnt     Score    Error  Units
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J            thrpt         4094.188           ops/s
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx               thrpt         9806.681           ops/s
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J           thrpt         2810.937           ops/s
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx              thrpt         8086.076           ops/s
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J                  thrpt         3392.733           ops/s
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx                     thrpt         8734.354           ops/s
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J                 thrpt         3370.913           ops/s
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx                    thrpt         8350.051           ops/s
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J           sample  28722     0.035 ±  0.001   s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.00     sample            0.001            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.50     sample            0.008            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.90     sample            0.096            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.95     sample            0.168            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.99     sample            0.375            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.999    sample            0.752            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.9999   sample            1.048            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p1.00     sample            1.244            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx              sample  79984     0.012 ±  0.001   s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.00        sample            0.001            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.50        sample            0.014            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.90        sample            0.019            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.95        sample            0.021            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.99        sample            0.027            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.999       sample            0.039            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.9999      sample            0.049            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p1.00        sample            0.052            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J          sample  30580     0.033 ±  0.001   s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.00    sample            0.001            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.50    sample            0.009            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.90    sample            0.089            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.95    sample            0.151            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.99    sample            0.319            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.999   sample            0.571            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.9999  sample            0.875            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p1.00    sample            0.897            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx             sample  79469     0.013 ±  0.001   s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.00       sample            0.001            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.50       sample            0.014            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.90       sample            0.016            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.95       sample            0.016            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.99       sample            0.024            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.999      sample            0.049            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.9999     sample            0.057            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p1.00       sample            0.061            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J                 sample  30316     0.033 ±  0.001   s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.00           sample            0.001            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.50           sample            0.009            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.90           sample            0.090            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.95           sample            0.152            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.99           sample            0.325            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.999          sample            0.650            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.9999         sample            1.012            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p1.00           sample            1.382            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx                    sample  77474     0.013 ±  0.001   s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.00              sample            0.001            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.50              sample            0.014            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.90              sample            0.016            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.95              sample            0.019            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.99              sample            0.025            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.999             sample            0.086            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.9999            sample            0.104            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p1.00              sample            0.105            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J                sample  32439     0.031 ±  0.001   s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.00          sample            0.001            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.50          sample            0.009            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.90          sample            0.083            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.95          sample            0.139            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.99          sample            0.291            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.999         sample            0.549            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.9999        sample            0.946            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p1.00          sample            1.003            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx                   sample  84179     0.012 ±  0.001   s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.00             sample            0.001            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.50             sample            0.013            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.90             sample            0.015            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.95             sample            0.015            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.99             sample            0.018            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.999            sample            0.028            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.9999           sample            0.032            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p1.00             sample            0.033            s/op
+
+50 Distinct Key - 100 Thread
+Benchmark                                                         Mode    Cnt      Score    Error  Units
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J            thrpt         13052.838           ops/s
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx               thrpt         10014.901           ops/s
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J           thrpt          8436.509           ops/s
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx              thrpt          8158.648           ops/s
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J                  thrpt          9582.808           ops/s
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx                     thrpt          8093.363           ops/s
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J                 thrpt          7718.500           ops/s
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx                    thrpt          8139.536           ops/s
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J           sample  78021      0.013 ±  0.001   s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.00     sample             0.001            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.50     sample             0.006            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.90     sample             0.027            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.95     sample             0.046            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.99     sample             0.117            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.999    sample             0.265            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.9999   sample             0.413            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p1.00     sample             0.665            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx              sample  76396      0.013 ±  0.001   s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.00        sample             0.001            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.50        sample             0.013            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.90        sample             0.021            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.95        sample             0.026            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.99        sample             0.037            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.999       sample             0.108            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.9999      sample             0.132            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p1.00        sample             0.134            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J          sample  95887      0.010 ±  0.001   s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.00    sample             0.001            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.50    sample             0.005            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.90    sample             0.022            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.95    sample             0.035            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.99    sample             0.082            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.999   sample             0.192            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.9999  sample             0.341            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p1.00    sample             0.499            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx             sample  80677      0.012 ±  0.001   s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.00       sample             0.001            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.50       sample             0.014            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.90       sample             0.015            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.95       sample             0.016            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.99       sample             0.018            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.999      sample             0.020            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.9999     sample             0.025            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p1.00       sample             0.027            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J                 sample  94958      0.011 ±  0.001   s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.00           sample             0.001            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.50           sample             0.005            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.90           sample             0.022            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.95           sample             0.036            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.99           sample             0.085            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.999          sample             0.188            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.9999         sample             0.303            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p1.00           sample             0.386            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx                    sample  81160      0.012 ±  0.001   s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.00              sample             0.001            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.50              sample             0.013            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.90              sample             0.016            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.95              sample             0.017            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.99              sample             0.022            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.999             sample             0.048            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.9999            sample             0.055            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p1.00              sample             0.061            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J                sample  87187      0.011 ±  0.001   s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.00          sample             0.001            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.50          sample             0.006            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.90          sample             0.025            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.95          sample             0.038            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.99          sample             0.087            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.999         sample             0.191            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.9999        sample             0.314            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p1.00          sample             0.486            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx                   sample  78918      0.013 ±  0.001   s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.00             sample             0.001            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.50             sample             0.014            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.90             sample             0.016            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.95             sample             0.017            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.99             sample             0.020            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.999            sample             0.032            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.9999           sample             0.037            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p1.00             sample             0.039            s/op
+
+100 Distinct Key - 100 Thread
+Benchmark                                                         Mode     Cnt      Score    Error  Units
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J            thrpt          15325.142           ops/s
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx               thrpt           7210.095           ops/s
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J           thrpt          10393.045           ops/s
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx              thrpt           8238.921           ops/s
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J                  thrpt          11284.744           ops/s
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx                     thrpt           8184.079           ops/s
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J                 thrpt          12815.365           ops/s
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx                    thrpt           8254.655           ops/s
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J           sample  128041      0.008 ±  0.001   s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.00     sample              0.001            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.50     sample              0.005            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.90     sample              0.015            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.95     sample              0.022            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.99     sample              0.048            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.999    sample              0.113            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p0.9999   sample              0.190            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthBucket4J:p1.00     sample              0.265            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx              sample   75389      0.013 ±  0.001   s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.00        sample              0.001            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.50        sample              0.014            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.90        sample              0.018            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.95        sample              0.020            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.99        sample              0.030            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.999       sample              0.049            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p0.9999      sample              0.060            s/op
+MultiKeyBenchmark.consumeAndGetMultiBandwidthxxxxx:p1.00        sample              0.064            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J          sample  109896      0.009 ±  0.001   s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.00    sample              0.001            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.50    sample              0.005            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.90    sample              0.018            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.95    sample              0.031            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.99    sample              0.072            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.999   sample              0.149            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p0.9999  sample              0.235            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthBucket4J:p1.00    sample              0.321            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx             sample   75916      0.013 ±  0.001   s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.00       sample              0.001            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.50       sample              0.015            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.90       sample              0.017            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.95       sample              0.019            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.99       sample              0.022            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.999      sample              0.029            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p0.9999     sample              0.036            s/op
+MultiKeyBenchmark.consumeAndGetSingleBandwidthxxxxx:p1.00       sample              0.037            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J                 sample  112291      0.009 ±  0.001   s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.00           sample              0.001            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.50           sample              0.004            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.90           sample              0.018            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.95           sample              0.030            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.99           sample              0.072            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.999          sample              0.153            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p0.9999         sample              0.270            s/op
+MultiKeyBenchmark.consumeMultiBandwidthBucket4J:p1.00           sample              0.490            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx                    sample   79147      0.013 ±  0.001   s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.00              sample              0.001            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.50              sample              0.014            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.90              sample              0.016            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.95              sample              0.017            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.99              sample              0.023            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.999             sample              0.042            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p0.9999            sample              0.052            s/op
+MultiKeyBenchmark.consumeMultiBandwidthxxxxx:p1.00              sample              0.055            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J                sample  124642      0.008 ±  0.001   s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.00          sample              0.001            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.50          sample              0.005            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.90          sample              0.016            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.95          sample              0.024            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.99          sample              0.054            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.999         sample              0.122            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p0.9999        sample              0.202            s/op
+MultiKeyBenchmark.consumeSingleBandwidthBucket4J:p1.00          sample              0.331            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx                   sample   84233      0.012 ±  0.001   s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.00             sample              0.001            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.50             sample              0.014            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.90             sample              0.015            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.95             sample              0.015            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.99             sample              0.017            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.999            sample              0.019            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p0.9999           sample              0.020            s/op
+MultiKeyBenchmark.consumeSingleBandwidthxxxxx:p1.00             sample              0.020            s/op

@@ -1,0 +1,19 @@
+### Maven ###
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Eclipse or STS ###
+.settings
+.project
+.classpath
+.factorypath
+
+### Mac OS ###
+.DS_Store
